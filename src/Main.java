@@ -81,14 +81,23 @@
 
     Varibale
     Type of Variable
-    Based On DateType
-    - Primitive
-    - Non-Primitive
-    Based on Scope
-    - Local
-    - Global
-        - static
-        - Non static
+        Based On DateType
+        - Primitive
+        - Non-Primitive
+        Based on Scope
+        - Local
+            - A variable declare inside local area is known as local varibale
+            - we cannnot use local variables withour initialisation
+            - Local variable are not assign with default  values
+            - we cannot create two local variable with same name
+            - Local variable can be used only inside same local area
+            Note : we can use global variable in local and global area
+
+        - Global
+            - static
+                - A variable which is declare inside class area or global are prefix with static keyword is Known as static variable.
+            - Non static
+                - A variable which is declare inside class area or global area without static keyword is known as non-static variable.
 
 
 
@@ -103,10 +112,10 @@
 public class Main {
 
     // class area or global area
-    int a = 23;
-    static  int b = 34;
+//    static  int b = 34;
 
     public static void main(String[] args) {
+
 //        System.out.print("10");
 //        System.out.print("20");
 //        System.out.println("30");
@@ -135,7 +144,13 @@ public class Main {
         System.out.print("67");
         System.out.print("_");
 
-        // Local area or method area
+        // write a java program to calculate area of square whose side is 4.2
+
+        float side =4.2f;
+        float area = side * side;
+        System.out.println(area);
+
+
 
 
 
