@@ -295,6 +295,13 @@ public class Main {
         int res = (a > b && a > c) ? a : (b > a && b > c) ? b : c;
         System.out.println(res);
 
+        // check whether it is a uppercase or not
+
+
+
+        char aplha = 'a';
+        String isUppercase = (aplha >= 'A' && aplha <= 'Z') ? "Uppercase" : "LowerCase";
+        System.out.println(isUppercase);
 
 
 
