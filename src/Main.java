@@ -179,6 +179,37 @@
 
 
 
+            TypeCasting
+                -Two Types
+                    -primitive typecasting(not recomended)
+                    - Non-Primitive TypeCasting(recomended)
+             Primitive TypeCasting
+                - Two types
+                    - Widening(Implicit) done by Compiler* -> NO data loss here
+                    - Narrowing(Explictly)
+             Widening:-
+                - byte < Short = Char < int < long < float < double
+
+                byte b1 = 123;
+                Short s1 = b1;  -> Implicitly done by Compiler -> No data loss here
+                * char to int/short possible implicitly
+                * but short/int to char is not possible , char has limitations.
+
+             Narrowing :-
+                - double > float > long > int > short = char > byte
+                - possible lossing conversion, no implicitly converion it will through error
+                - it happen by Explicitlt Conversion -> Programmer -> typeCastingOperator
+                - primitiveDataType var = (Smaller DataType) LargerDataTypeVariable;
+
+
+                # byte range is 0-127
+                when int 128 convert to byte it is -128, and when int 129 into byte it is -127, when int 130 into byte it is -126
+                it will go zero then again in
+
+
+
+
+
 
 
 
@@ -302,6 +333,14 @@ public class Main {
         char aplha = 'a';
         String isUppercase = (aplha >= 'A' && aplha <= 'Z') ? "Uppercase" : "LowerCase";
         System.out.println(isUppercase);
+
+
+        byte b1 = 123;
+        short s1 = b1;
+        System.out.println(s1);
+        int aa =-129;
+        byte bb = (byte) aa;
+        System.out.println(bb);
 
 
 
