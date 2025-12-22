@@ -1,4 +1,4 @@
-package assignment1;
+package assignment21thDec;
 
 public class logic3 {
     public static void main(String[] args) {

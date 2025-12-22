@@ -1,4 +1,4 @@
-package assignment1;
+package assignment21thDec;
 /*
 A system should send an alert if login attempts exceed 3 and the account is not locked
 A movie ticket booking is allowed if seats are available and the user has either a membership or a valid promo code

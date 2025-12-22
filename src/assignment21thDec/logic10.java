@@ -1,4 +1,4 @@
-package assignment1;
+package assignment21thDec;
 
 // A movie ticket booking is allowed if seats are available and
 // the user has either a membership or a valid promo code

@@ -26,14 +26,14 @@
     - We cannot use keyword as Identifier.
     - we cannot use space .
     - we can't start with numbers.
-    - Special Charaters are not allowrd except underscore(_) and dollar($).
+    - Special Charaters are not allowed except underscore(_) and dollar($).
     Types of Identifiers
     -ClassName, VariableName, MethodName, PackageName.
     Literals
     - The value or data given the programmer is known as Literals.
     Types of Literals
     Number
-    - Interger
+    - Integer
     - Floating
     Character
     - It is used to represent a single data, it is enclosed inside single quote.
@@ -49,15 +49,15 @@
     - It used to seperate JAVA Members
     Types  of Seperators
     - block {}
-    - () -> eaution, methods,declaration, conditions
+    - () -> evalution, methods,declaration, conditions
     - ; -> end of the statement
     - , -> Varibale
     - . Reference
 
     DataType
-    - used to define sixe and type of data
+    - used to define six and type of data
     Primitive DataType
-    -Inbuilt datatype
+    - Inbuilt datatype
     - Fixed Size
     Integer
     - byte - 1 byte -> 8 bits
@@ -87,7 +87,7 @@
         Based on Scope
         - Local
             - A variable declare inside local area is known as local varibale
-            - we cannnot use local variables without initialisation
+            - we cannot use local variables without initialisation
             - Local variable are not assign with default  values
             - we cannot create two local variable with same name
             - Local variable can be used only inside same local area
@@ -104,7 +104,7 @@
         - symboll we use to perform some operation
         Types of Operators
         - Unary Operator
-            - which reuires one operand
+            - which requires one operand
             Types
                 - new
                 - Increment
