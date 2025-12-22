@@ -181,7 +181,7 @@
 
             TypeCasting
                 -Two Types
-                    -primitive typecasting(not recomended)
+                    - primitive typecasting(not recomended)
                     - Non-Primitive TypeCasting(recomended)
              Primitive TypeCasting
                 - Two types
@@ -342,6 +342,10 @@ public class Main {
         byte bb = (byte) aa;
         System.out.println(bb);
 
+
+        int numm = 1452;
+        char ccc = (char) numm;
+        System.out.println(ccc);
 
 
 
