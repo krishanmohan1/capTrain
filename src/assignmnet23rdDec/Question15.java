@@ -11,7 +11,7 @@ public class Question15 {
         int end = sc.nextInt();
 
         for(int i = start; i  <= end ; i++){
-            
+
         }
     }
 }
