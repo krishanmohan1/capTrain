@@ -12,9 +12,8 @@ public class BankTransactionApp {
 
         while (true) {
             showMenu();
-            int option = sc.nextInt();
 
-            switch (option) {
+            switch (sc.nextInt()) {
 
                 case 1: // Withdraw
                     System.out.print("Enter withdraw amount: ");

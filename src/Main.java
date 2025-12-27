@@ -1,13 +1,15 @@
 /*
-    Java is a High level programming languuage , which is easily readable , understandbale and instructable by programmer.
+
+    Java is a High level programming language , which is easily readable , understandbale and instructable by programmer.
     Why Java is Plateform independent Language?
-    - Becuase in java source code is converted into Byte Code which is easily executable in any platform which has JVM.
+    - Because in java source code is converted into Byte Code which is easily executable in any platform which has JVM.
     - JVM stands for Java Virtual Machine, it is physically does not exist, it is used to convert byte code into binary code.
     - It consist of JIT and Interpreter
     - JRE it stands for Java Runtime Environment, it physically exists. It is used to Provide Environment to run java Program
-    - JDK it stands for Java Development Kit , It physically exists . It Provide an environment to run as well as develop java program.
+    - JDK it stands for Java Development Kit , It physically exists . It provide an environment to run as well as develop java program.
     - System.out.print("data"); after printing the data the cursor is shifted to next position in same line
     - System.out.println("Mohan"); after printing the data the cursor is shifted to next postion in new line
+
 
 
     Token
@@ -15,7 +17,7 @@
     Types of Tokens
     -Keywords, Identifiers, Literals, Seperators, Operators
     Keywords
-    - A word which are having predefine meaning is known as keywords.
+    - A word which are having pre-define meaning is known as keywords.
     - It is also known as compiler aware Words.
     - Keywords are always should be in lowercase.
     - In java we have 50+ keywords
@@ -59,11 +61,13 @@
     Primitive DataType
     - Inbuilt datatype
     - Fixed Size
+
     Integer
     - byte - 1 byte -> 8 bits
     - short -> 2 byte -> 16bits
     - int -> 4 byte -> 32 bits
     - long -> 8 byte -> 64 bits
+
     Float
     - Float -> 4 byte -> 32 bits
     - Double -> 8 byte -> 64 bits
@@ -346,17 +350,6 @@ public class Main {
         int numm = 1452;
         char ccc = (char) numm;
         System.out.println(ccc);
-
-
-
-
-
-
-
-
-
-
-
 
     }
 }
