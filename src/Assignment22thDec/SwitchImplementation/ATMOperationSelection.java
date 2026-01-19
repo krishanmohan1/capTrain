@@ -10,7 +10,7 @@ public class ATMOperationSelection {
         Long accountNumber = 9546942365L;
         int t = 4;
 
-        while (t-- > 0){
+        while (t>0){
             System.out.println("1. -> Withdraw\n2. -> Deposit\n3. -> Balance Enquiry\n4. -> Exit");
             System.out.println("Enter the no. you want to Go: ");
             int selection = sc.nextInt();
